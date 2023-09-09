@@ -1,0 +1,564 @@
+*
+{
+    background-color: transparent;
+    margin: 0px;
+    scroll-behavior: smooth;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.headerBackground
+{
+    height: 800px;
+    width: 100%;
+    background-color: #FDF9F5;
+    display: grid;
+}
+
+.headerTitle
+{
+    height: 750px;
+    width: 95%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 66.66% 33.33%;
+}
+
+.headerTop1
+{
+    height: 50px;
+}
+
+.headerTop2
+{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    align-items: flex-end;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.headerTopItem1FaceBook
+{
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.headerTopItem2Twitter
+{
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.headerTopItem3LinkedIn
+{
+
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.headerTopItem4Instagram
+{
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.headerTitleText
+{
+    height: 700px;
+    width: 100%;
+}
+
+.headerTitleImage
+{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headerTitleImageClark1
+{
+    max-width: 90%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin: auto;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.headerTitleTextVertical1
+{
+    height: 140px;
+    width: 100%;
+}
+
+.headerTitleTextVertical2
+{
+    height: 140px;
+    width: 100%;
+}
+
+.headerTitleTextVertical2Top
+{
+    height: 46.2px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: .79fr 1fr;   
+}
+
+.headerTitleTextVertical2TopIntro
+{
+    font-family: Elephant;
+    font-size: 40px;
+    color: #ff7d00;
+    text-align: start;
+    margin-top: 25px;
+}
+
+.headerTitleTextVertical2Bottom
+{
+    display: grid;
+    grid-template-columns: .6fr .1fr .1fr 1fr;
+}
+
+.headerTitleTextVertical2BottomName1
+{
+    font-family: Elephant;
+    font-size: 130px;
+    color: #ff7d00;
+    text-align: end;
+}
+
+.headerTitleTextVertical2BottomName2
+{
+    font-family: Elephant;
+    font-size: 100px;
+    color: #ff7d00;
+    text-align: justify;
+    align-self: center;
+}
+
+.headerTitleTextVertical2BottomName3
+{
+    font-family: Elephant;
+    font-size: 130px;
+    color: #ff7d00;
+    text-align: start;
+}
+
+.headerTitleTextVertical2BottomName4
+{
+    font-family: Elephant;
+    font-size: 100px;
+    color: #ff7d00;
+    text-align: justify;
+    align-self: center;
+}
+
+.headerTitleTextVertical3Surname
+{
+    font-family: Elephant;
+    font-size: 200px;
+    color: #ff7d00;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.headerTitleTextVertical2Bottom
+{
+    height: 93.8px;
+    width: 100%;
+}
+
+.headerTitleTextVertical3
+{
+    height: 140px;
+    width: 100%;
+}
+
+.headerTitleTextVertical4
+{
+    height: 140px;
+    width: 100%;
+    display: grid;
+}
+
+.headerTitleTextVertical4Email
+{
+    font-family: Elephant;
+    font-size: 20px;
+    color: #ff7d00;
+    margin-top: 120px;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.headerTitleTextVertical5
+{
+    height: 140px;
+    width: 100%;
+    display: grid;
+}
+
+.headerTitleTextVertical4PhoneNumber
+{
+    font-family: Elephant;
+    font-size: 20px;
+    color: #ff7d00;
+    margin-top: 30px;
+    text-align: center;
+    align-self: flex-start;
+    text-decoration: none;
+}
+
+/* SECOND SLIDE */
+
+.bodyBackground
+{
+    height: 800px;
+    width: 100%;
+    background-color: #f5fdf5;
+    display: grid;
+}
+
+.bodyBody
+{
+    height: 725px;
+    width: 80%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33.33% 66.66%;
+}
+
+.bodyImage
+{
+    height: 725px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+.bodyImageClark1
+{
+    max-width: 90%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.bodyText
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.bodyTextTop
+{
+    background-color: transparent;
+}
+
+.bodyTextMiddle
+{
+    padding-left: 160px;
+    padding-right: 160px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+}
+
+.bodyTextMiddleText
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 24px;
+    line-height: 40px;
+
+}
+
+mark
+{
+    background-color: #ffff00;
+}
+
+.bodyTextBottom
+{
+    background-color: transparent;
+}
+
+/* THIRD SLIDE */
+
+.thirdBackground
+{
+    height: 1000px;
+    width: 100%;
+    background-color: #f5fdf5;
+    display: grid;
+}
+
+.thirdBody
+{
+    height: 725px;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: .99fr 1fr;
+}
+
+.thirdText
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.thirdText1
+{
+    display: flex;
+    margin: auto;
+}
+
+.thirdText1Title
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.thirdText2
+{
+    display: grid;
+    margin: auto;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.thirdText2Title
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.thirdText2Body
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.thirdText3
+{
+    display: grid;
+    margin: auto;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.thirdText3Title
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.thirdText3Body
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.thirdText4
+{
+    display: grid;
+    margin: auto;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.thirdText4Title
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.thirdText4Body
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.thirdText5
+{
+    display: flex;
+    margin: auto;
+}
+
+.thirdText5Title
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.thirdText6
+{
+    display: grid;
+    margin: auto;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.thirdText6Title
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.thirdText6Body
+{
+    font-family: Elephant;
+    color: #001524;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.thirdImage
+{
+    height: 725px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+/* FOURTH SLIDE */
+
+.lastBackground
+{
+    height: 800px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.lastBackgroundImage
+{
+    max-width: 100%;
+    position: absolute;
+}
+
+.lastHeaderText
+{
+    height: 900px;
+    width: 90%;
+    background-color: rgba(243, 243, 243, 30%);
+    z-index: 10;
+    display: grid;
+    grid-template-columns: 33.33% 33.334% 33.33%;
+    border-radius: .5%;
+}
+
+.lastHeaderTextLeft
+{
+    height: 900px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(9);
+    font-family: Elephant;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+}
+
+.lastHeaderTextLeft2
+{
+
+    width: 100%;
+    font-family: Elephant;
+    font-size: 36px;
+    align-self: center;
+    text-align: center;
+}
+
+.lastHeaderTextMiddle
+{
+    font-family: Elephant;
+    font-size: 48px;
+    color: #001524;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lastHeaderTextRight
+{
+    height: 900px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(9);
+    font-family: Elephant;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+}
+
+.lastHeaderTextRight2
+{
+
+    width: 100%;
+    font-family: Elephant;
+    font-size: 36px;
+    align-self: center;
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+Font:
+Elephant (Install on your system to use)
+
+Color Pallete:
+#001524
+#FFECD1
+#FF7D00
